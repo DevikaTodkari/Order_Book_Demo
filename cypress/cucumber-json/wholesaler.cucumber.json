@@ -1,0 +1,343 @@
+[
+  {
+    "description": "   As a wholesale customer, I should be able to order 50 Harry Potter fiction books at a\nrate of $35.80 each so that I can sell them to my customers.",
+    "keyword": "Feature",
+    "name": "Book shop application where wholesale customer wants to buy books",
+    "line": 1,
+    "id": "book-shop-application-where-wholesale-customer-wants-to-buy-books",
+    "tags": [],
+    "uri": "wholesaler.feature",
+    "elements": [
+      {
+        "id": "book-shop-application-where-wholesale-customer-wants-to-buy-books;book-shop-where-wholesale-customer-buying-books-and-validating-if-order-was-placed-successfully.",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Book Shop where wholesale customer buying books and Validating if order was placed successfully.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open a book shop site",
+            "result": {
+              "status": "passed",
+              "duration": 2790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I select the fiction book",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I select The harry pooter book from given dropdown and enter the price and units",
+            "result": {
+              "status": "passed",
+              "duration": 954000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I submit the application",
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should be able to see the records added in the Transaction Table",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-shop-application-where-wholesale-customer-wants-to-buy-books;validate-required-fields-are-working-correctly-with-valid-data",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Validate Required fields are working correctly with Valid data",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open a book shop site",
+            "result": {
+              "status": "passed",
+              "duration": 489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I select the fiction book",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I select The harry pooter book from given dropdown and enter valid price and units",
+            "result": {
+              "status": "passed",
+              "duration": 840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "form should get submitted successfully",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-shop-application-where-wholesale-customer-wants-to-buy-books;validate-required-fields-are-working-correctly-with-data-in-decimal-point",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Validate Required fields are working correctly with data in Decimal point",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open a book shop site",
+            "result": {
+              "status": "passed",
+              "duration": 486000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I select the fiction book",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "When I select The harry pooter book from given dropdown and enter Invalid price and units",
+            "result": {
+              "status": "passed",
+              "duration": 876000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should see the error message",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-shop-application-where-wholesale-customer-wants-to-buy-books;validate-required-fields-are-working-correctly-when-submit-the-form-without-any-data",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Validate Required fields are working correctly when submit the form without any data",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open a book shop site",
+            "result": {
+              "status": "passed",
+              "duration": 1346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I select the fiction book",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I am not entering any data and sumbitting the form",
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should get error message for both fields",
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-shop-application-where-wholesale-customer-wants-to-buy-books;validating-transaction-documents-have-been-updated-properly.",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Validating Transaction documents have been updated properly.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open a book shop site",
+            "result": {
+              "status": "passed",
+              "duration": 477000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I select the fiction book",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I select The harry pooter book from given dropdown and enter the price and units",
+            "result": {
+              "status": "passed",
+              "duration": 764000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I submit the application",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I verify each fields of the Transaction documents",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-shop-application-where-wholesale-customer-wants-to-buy-books;validating-the-total-amount-has-been-correctly-applied.",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Validating The total amount has been correctly applied.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open a book shop site",
+            "result": {
+              "status": "passed",
+              "duration": 463000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I select the fiction book",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I select The harry pooter book from given dropdown and enter the price and units",
+            "result": {
+              "status": "passed",
+              "duration": 730000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I submit the application",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I should be able to the correct Amount displayed in Amount section",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

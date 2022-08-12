@@ -1,0 +1,170 @@
+[
+  {
+    "description": "    As a book lover, I should be able to order a drama called “The Rainbow” for no more\nthan $125.00 I also want to use my 10% discount voucher so that I can send this\nbook to my mum.",
+    "keyword": "Feature",
+    "name": "As a Book_Lover I should be able to order the book and apply the discount",
+    "line": 1,
+    "id": "as-a-book_lover-i-should-be-able-to-order-the-book-and-apply-the-discount",
+    "tags": [],
+    "uri": "book_Lover.feature",
+    "elements": [
+      {
+        "id": "as-a-book_lover-i-should-be-able-to-order-the-book-and-apply-the-discount;validating-transaction-documents-have-been-updated-properly.",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Validating Transaction documents have been updated properly.",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open a book shop site",
+            "result": {
+              "status": "passed",
+              "duration": 3087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I select the Drama book",
+            "result": {
+              "status": "passed",
+              "duration": 170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select The Rainbow book from given dropdown and enter the price and units",
+            "result": {
+              "status": "passed",
+              "duration": 904000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I submit the application",
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I verify each fields of the Transaction documents",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-book_lover-i-should-be-able-to-order-the-book-and-apply-the-discount;validating-the-discount-has-been-applied-correctly,-and-the-cumulative-sum-after-the-discount-has-been-shown.",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Validating The discount has been applied correctly, and the cumulative sum after the discount has been shown.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open a book shop site",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I select the Drama book",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select The Rainbow book from given dropdown and enter the price and units",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I verify the discount amount with the amount in the transaction table",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-book_lover-i-should-be-able-to-order-the-book-and-apply-the-discount;delete-the-record-and-double-check-that-it-was-successfully-removed.",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Delete the record and double-check that it was successfully removed.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open a book shop site",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I select the Drama book",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select The Rainbow book from given dropdown and enter the price and units",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should not see the Transaction documents",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
